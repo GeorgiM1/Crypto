@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.crypto.activity.DetailsActivity">
+    
+    <ImageView
+
+        android:id="@+id/details_coin_img"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/details_coin_name"
+            android:layout_margin="4dp"
+            android:text="@string/nameofcoin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/currency_symbol"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_margin="4dp"
+            android:id="@+id/details_coin_symbol"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="Dollar Price"
+            android:id="@+id/details_price_USD"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:id="@+id/details_price_BTC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BTC Price"/>
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:id="@+id/details_available_supply"
+            android:layout_weight="1"
+            android:text="Avaliable Supply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total Supply"
+            android:layout_marginEnd="10dp"/>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="start"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="Dollar Price"
+            android:id="@+id/details_price_USD_get"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:id="@+id/details_price_BTC_get"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BTC Price"/>
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:id="@+id/details_available_supply_get"
+            android:layout_weight="1"
+            android:text="Avaliable Supply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/details_total_supply_get"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total Supply"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:text="%"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/details_24h_change"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    
+
+
+    
+
+</LinearLayout>

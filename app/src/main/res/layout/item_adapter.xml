@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+
+        android:layout_margin="6dp"
+        android:id="@+id/coin_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="4.5"
+            android:layout_height="wrap_content">
+    <TextView
+        android:layout_gravity="start"
+        android:text="@string/nameofcoin"
+        android:layout_margin="6dp"
+        android:id="@+id/coin_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="start"
+                android:layout_margin="6dp"
+                android:id="@+id/symbol_of_currency"
+                android:text="@string/currency_symbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="4.5"
+            android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:text="@string/priceofcoin"
+        android:layout_margin="6dp"
+        android:id="@+id/coin_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:text="@string/marketcap"
+                android:layout_margin="6dp"
+                android:id="@+id/coin_market_cap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/add_to_favourites"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/details_btn"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="..."
+            android:background="@color/colorAccent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <View
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </View>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "179575491501",
+    "firebase_url": "https://crypto-market-a7c9c.firebaseio.com",
+    "project_id": "crypto-market-a7c9c",
+    "storage_bucket": "crypto-market-a7c9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179575491501:android:e6edf1ff1e35644b",
+        "android_client_info": {
+          "package_name": "com.example.android.crypto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179575491501-d0i7h28i4cva23h3dgcvjsfjhdbbcc3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv-ANAg_JV3N---99bAgTa-wjisYsqdwk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
